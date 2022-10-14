@@ -103,7 +103,7 @@ z = y.numpy()
 
 # Download and construct CIFAR-10 dataset.
 
-train_dataset = torchvision.datasets.CIFAR10(root='../../data/',
+train_dataset = torchvision.datasets.CIFAR10(root='../data/',
                                              train=True, 
                                              transform=transforms.ToTensor(),
                                              download=True)
@@ -135,6 +135,7 @@ for images, labels in train_loader:
 # ================================================================== #
 
 # You should build your custom dataset as below.
+'''
 class CustomDataset(torch.utils.data.Dataset):
     def __init__(self):
         # TODO
@@ -155,7 +156,7 @@ custom_dataset = CustomDataset()
 train_loader = torch.utils.data.DataLoader(dataset=custom_dataset,
                                            batch_size=64, 
                                            shuffle=True)
-
+'''
 
 # ================================================================== #
 #                        6. Pretrained model                         #
