@@ -128,3 +128,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.csv
+.f
+1st solution/features_v2.f
+1st solution/feature_v1.csv
+1st solution/train.csv
