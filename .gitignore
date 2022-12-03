@@ -134,3 +134,6 @@ dmypy.json
 1st solution/features_v2.f
 1st solution/feature_v1.csv
 1st solution/train.csv
+1st solution/feature_v2.csv
+1st solution/nn_features.csv
+1st solution/pre_lgbm.csv
